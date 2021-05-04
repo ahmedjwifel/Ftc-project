@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 img {
     user-select: none;
@@ -8,4 +9,22 @@ img {
 @tailwind utilities;
 .z--1 {
     z-index: -1
+}
+
+.blue-1{
+  color: #00546C;
+}
+.bk-blue{
+    background-color: #00546C;
+}
+.border-class{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.border-col{
+    border-color: #86C4EC;
+}
+.bk-white{
+    background-color: #08546C;
 }

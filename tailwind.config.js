@@ -3,11 +3,14 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: [],
+  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   // mode: 'jit',
   darkMode: false, // or 'media' or 'class'
   theme: {
+  
       fontFamily:{
         sans: ['"Poppins"', ...defaultTheme.fontFamily.sans]
+        
       },
       colors: {
         ...defaultTheme.colors,
